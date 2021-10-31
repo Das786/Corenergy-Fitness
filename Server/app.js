@@ -23,8 +23,8 @@ app.use(express.json())
 
 
 const instance =  new Razorpay({
-    key_id: 'rzp_test_lsw8tzPt7DhYC2',
-    key_secret: 'qdfKhu8ps3iGVcR2esywXrJt'
+    key_id: RAZOR_PAY_KEY_ID,
+    key_secret: RAZOR_PAY_SECERT_KEY
 });
 
 // route for initiating payment
